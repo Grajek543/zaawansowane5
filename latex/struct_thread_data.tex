@@ -1,0 +1,37 @@
+\doxysection{Thread\+Data Struct Reference}
+\hypertarget{struct_thread_data}{}\label{struct_thread_data}\index{ThreadData@{ThreadData}}
+
+
+Struktura przechowująca dane dla wątku.  
+
+
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{struct_thread_data_a42ab8f6512c8fa69a74179bbd668d71d}\label{struct_thread_data_a42ab8f6512c8fa69a74179bbd668d71d} 
+unsigned long long {\bfseries start}
+\begin{DoxyCompactList}\small\item\em Indeks początkowy przedziału do całkowania. \end{DoxyCompactList}\item 
+\Hypertarget{struct_thread_data_a3e70e73f5dfce47e5f9c7b17ade3fbc6}\label{struct_thread_data_a3e70e73f5dfce47e5f9c7b17ade3fbc6} 
+unsigned long long {\bfseries end}
+\begin{DoxyCompactList}\small\item\em Indeks końcowy przedziału do całkowania. \end{DoxyCompactList}\item 
+\Hypertarget{struct_thread_data_a3c41e49ade6fb547ba7346571f950799}\label{struct_thread_data_a3c41e49ade6fb547ba7346571f950799} 
+double {\bfseries sum}
+\begin{DoxyCompactList}\small\item\em Częściowa suma wyliczona przez wątek. \end{DoxyCompactList}\item 
+\Hypertarget{struct_thread_data_a2b3ae50d9df41aab34d349ecea0900fd}\label{struct_thread_data_a2b3ae50d9df41aab34d349ecea0900fd} 
+double {\bfseries step}
+\begin{DoxyCompactList}\small\item\em Szerokość jednego prostokąta. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Struktura przechowująca dane dla wątku. 
+
+Struktura zawiera informacje o przedziale pracy danego wątku\+:
+\begin{DoxyItemize}
+\item start i end, czyli indeks początkowy i końcowy podprzedziałów,
+\item sum, w którym gromadzona jest częściowa suma,
+\item step, czyli szerokość jednego prostokąta do metody prostokątów. 
+\end{DoxyItemize}
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Zaawansowane5/Zaawansowane5.\+cpp\end{DoxyCompactItemize}
